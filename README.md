@@ -25,22 +25,19 @@ Lorsque l'utilisateur souhaite récupérer son vélo, il doit passer son badge d
 
 ## Mes tâches :
 #### Le module de la vie scolaire
-La vie scolaire doit pouvoir générer un mot de passe. Celui-ci est déterminé en fonction de paramètres variables (heure, mois...) et n'est valable que jusqu'à la fin de la journée.
-Le module doit pouvoir afficher sur un écran le mot de passe généré.
-* Carte Arduino
-* RTC (Real Time Clock)
-* Module Grove
-* Lecteur LCD
+La vie scolaire doit pouvoir générer un mot de passe provioire lorsqu'un utilisateur souhaite avoir accès au garage à vélo. Celui-ci est déterminé en fonction de paramètres variables (heure, mois...) et n'est valable que jusqu'à la fin de la journée.
+Le module de la vie scolaire doit pouvoir afficher sur un écran le mot de passe généré ainsi que le tag (identifiant) du badge RFID délivré au nouvel utilisateur.
 
 #### La borne du garage à vélo
-De manière générale, ma tâche ici consiste à autoriser, ou non, un utilisateur à entrer dans le garage à vélo.
-Je suis chargé de vérifier la validité des codes saisis ainsi que la validité des tags des badges.
+La borne du garage à vélo doit permettre d'autoriser, ou non, un utilisateur à entrer dans le garage.
+Celle-ci doit être capable de vérifier la validité des codes saisis ainsi que la validité des tags des badges.
 La base de données utilisée ici est une "flat database" puisque les données sont toutes stockées dans des fichiers texte, eux même stockés sur une carte SD.
-* Carte Arduino
-* RTC (Real Time Clock)
-* Module Grove
-* Lecteur LCD
-* Lecteur NFC/RFID Grove
-* Module SD
-* Tags RFID
+
+
+
+### Pour aller plus loin <br>
+Une fois les phases de tests effectuées avec succès, une mise en commun des différents programmes a été effectuée. Le projet a pu être réalisé dans les temps.
+Nous avons consacré les heures restantes à soumettre des idées concernant l'amélioration potentielle de notre solution. Une solution a notamment été retenue :
+Faire communiquer le module de la vie scolaire avec la borne du garage à vélo. Pour ce faire, il a été envisagé d'utiliser une carte Arduino Ethernet. A l'aide d'un simple logiciel, la vie scolaire pourrait alors gérer le garage à vélo depuis ses bureaux.
+Verrouiller la porte, ouvir un antivol ou même allumer la lumière serait alors envisageable.
 
