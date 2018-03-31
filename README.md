@@ -34,7 +34,7 @@ Celle-ci doit être capable de vérifier la validité des codes saisis ainsi que
 La base de données utilisée ici est une "flat database" puisque les données sont toutes stockées dans des fichiers texte, eux même stockés sur une carte SD.
 
 
-
+<br>
 ### Pour aller plus loin <br>
 Une fois les phases de tests effectuées avec succès, une mise en commun des différents programmes a été effectuée. Le projet a pu être réalisé dans les temps.
 Nous avons consacré les heures restantes à soumettre des idées concernant l'amélioration potentielle de notre solution. Une solution a notamment été retenue :
