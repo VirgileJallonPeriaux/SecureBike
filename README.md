@@ -27,11 +27,13 @@ Lorsque l'utilisateur souhaite récupérer son vélo, il doit passer son badge d
 - #### Le module de la vie scolaire
 La vie scolaire doit pouvoir générer un mot de passe provioire lorsqu'un utilisateur souhaite avoir accès au garage à vélo. Celui-ci est déterminé en fonction de paramètres variables (heure, mois...) et n'est valable que jusqu'à la fin de la journée.
 Le module de la vie scolaire doit pouvoir afficher sur un écran le mot de passe généré ainsi que le tag (identifiant) du badge RFID délivré au nouvel utilisateur.
+![Exigence Module Vie Scolaire](https://github.com/VirgileJallonPeriaux/SecureBike/blob/master/DiagrammeExigence/exigence_perso_viescol.png)
 
 - #### La borne du garage à vélo
 La borne du garage à vélo doit permettre d'autoriser, ou non, un utilisateur à entrer dans le garage.
 Celle-ci doit être capable de vérifier la validité des codes saisis ainsi que la validité des tags des badges.
 La base de données utilisée ici est une "flat database" puisque les données sont toutes stockées dans des fichiers texte, eux même stockés sur une carte SD.
+![Exigence Borne](https://github.com/VirgileJallonPeriaux/SecureBike/blob/master/DiagrammeExigence/exigence_perso_borneacces.png)
 
 
 ### Pour aller plus loin <br>
