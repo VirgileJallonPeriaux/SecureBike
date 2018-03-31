@@ -9,6 +9,7 @@ Projet réalisé avec le langage Arduino, des cartes Arduino (circuits électron
 
 ### Attribution des tâches :
 Les tâches ont été attribuées en fonction des connaissances et des compétences de chaque membre du groupe. Si un membre du groupe n'arrive pas à respecter les délais imposés, il n'est évidemment pas interdit de lui venir en aide.
+![Attribution des taches](https://github.com/VirgileJallonPeriaux/SecureBike/blob/master/Taches/repartitionTaches.png)
 
 #### Le fonctionnement
 - Première utilisation<br>
