@@ -24,11 +24,11 @@ Lorqu'un utilisateur souhaite garer son vélo, il doit passer son badge devant l
 Lorsque l'utilisateur souhaite récupérer son vélo, il doit passer son badge devant le lecteur de la borne du garage à vélo (ou taper son mot de passe). La porte du garage s'ouvre et l'antivol qui maintien le vélo de l'utilisateur fait de même.
 
 ## Mes tâches :
-#### Le module de la vie scolaire
+- #### Le module de la vie scolaire
 La vie scolaire doit pouvoir générer un mot de passe provioire lorsqu'un utilisateur souhaite avoir accès au garage à vélo. Celui-ci est déterminé en fonction de paramètres variables (heure, mois...) et n'est valable que jusqu'à la fin de la journée.
 Le module de la vie scolaire doit pouvoir afficher sur un écran le mot de passe généré ainsi que le tag (identifiant) du badge RFID délivré au nouvel utilisateur.
 
-#### La borne du garage à vélo
+- #### La borne du garage à vélo
 La borne du garage à vélo doit permettre d'autoriser, ou non, un utilisateur à entrer dans le garage.
 Celle-ci doit être capable de vérifier la validité des codes saisis ainsi que la validité des tags des badges.
 La base de données utilisée ici est une "flat database" puisque les données sont toutes stockées dans des fichiers texte, eux même stockés sur une carte SD.
